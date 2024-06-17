@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Prakash - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Add your custom styles or overrides here */
+    </style>
+</head>
+<body>
+    <!-- Horizontal section with links to different sections -->
+    <div class="horizontal-section">
+        <a href="#about-me">About Me</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="https://drive.google.com/file/d/1EToeCTQzw7whQFDl-HO1K00-j-XeJ5ij/view?usp=sharing" target="_blank">Resume Download</a>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="profile">
+                <h1>Jay Prakash</h1>
+                <p>Business Analyst @ Target</p>
+                <div class="contact-info">
+                    <p>Nagawar, Bengaluru (560045)</p>
+                    <p>+91 9953956884</p>
+                    <p><a href="mailto:mailtojay97@gmail.com">mailtojay97@gmail.com</a></p>
+                </div>
+                <img src="profile.jpg" alt="Jay Prakash" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <section id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Accomplished Data Analyst with 2 years of experience in Business Intelligence and Data Analytics, proficient in Excel, Power BI, SQL, and Python. Proven track record of mining, interpreting, and presenting data to drive business insights and enhance operational efficiency.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <img src="python.png" alt="Python">
+                    <p>Python</p>
+                </li>
+                <li>
+                    <img src="excel.png" alt="Excel">
+                    <p>Excel</p>
+                </li>
+                <li>
+                    <img src="powerbi.png" alt="Power BI">
+                    <p>Power BI</p>
+                </li>
+                <li>
+                    <img src="machinelearning.png" alt="Machine Learning">
+                    <p>Machine Learning</p>
+                </li>
+                <li>
+                    <img src="mysql.png" alt="MySQL">
+                    <p>MySQL</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="horizontal-grid">
+                <div class="experience" onclick="toggleDetails(this)">
+                    <img src="ex1.jpg" alt="Experience 1" class="section-img">
+                    <h3>Target Corporation India Pvt. Lmt. Bengaluru</h3>
+                    <p>Business Analyst <span>March 2023 - Till now</span></p>
+                    <div class="details" style="display: none;">
+                        <ul>
+                            <li>Conducted thorough data analysis to identify patterns, trends, and actionable insights.</li>
+                            <li>Played a key role in data-driven decision-making, collaborating with cross-functional teams resulting in a 20% improvement in efficiency.</li>
+                            <li>Contributed to revenue growth from $80M to $100M in one year, achieving a 15-20% annual growth rate.</li>
+                            <li>Evaluate vendor contracts. Identify vendors that may be overcharging or underdelivering on their services.</li>
+                            <li>Working on the development and implementation of new quantitative models in order to stabilize the business and maximize efficiency.</li>
+                            <li>Worked on KPIs to monitor the Business Revenue.</li>
+                            <li>Automated the generation of reports and the extraction of data from databases, significantly reducing manual effort, increasing efficiency, and improving data accuracy and consistency.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience" onclick="toggleDetails(this)">
+                    <img src="ex2.jpg" alt="Experience 2" class="section-img">
+                    <h3>iNeuron Intelligence Pvt Ltd Bengaluru</h3>
+                    <p>Data Analyst Intern <span>May 2022 - Dec 2022</span></p>
+                    <div class="details" style="display: none;">
+                        <ul>
+                            <li>Measured customer success processes, resulting in a 20% increase in satisfaction scores.</li>
+                            <li>Streamlined the customer journey, reducing onboarding time by 15% and improving overall experience by 10%.</li>
+                            <li>Alerted teams about data-driven opportunities, contributing to a 15-20% increase in upsell and cross-sell revenue.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="horizontal-grid">
+                <div class="project">
+                    <img src="p1.jpg" alt="Project 1" class="section-img">
+                    <h3>Stock Market Analysis</h3>
+                    <p>Conducted data analysis using Power BI and Excel, analyzing multiple data sources to identify patterns and trends in the stock market.</p>
+                    <a href="https://drive.google.com/file/d/1OZpw6trzBdb499hdonnAggGC9Ks1hh1o/view?usp=sharing" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <img src="p2.jpg" alt="Project 2" class="section-img">
+                    <h3>Business Insights 360</h3>
+                    <p>Elevate AtliQ Hardware's competitiveness by transitioning from Excel to a dynamic Power BI analytics solution.</p>
+                    <a href="https://drive.google.com/file/d/1dc84vb6dXqHA9J2YAjZ1-0svjFO1Joa0/view?usp=sharing" target="_blank">View Project</a>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1EToeCTQzw7whQFDl-HO1K00-j-XeJ5ij/view?usp=sharing" id="resume" class="btn" target="_blank">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                <a href="mailto:mailtojay97@gmail.com"><i class="fas fa-envelope"></i> Email</a> | 
+                <a href="https://github.com/jaypk073"><i class="fab fa-github"></i> GitHub</a> | 
+                <a href="https://www.linkedin.com/in/jay-p-670585153"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- JavaScript to toggle details -->
+    <script>
+        function toggleDetails(element) {
+            const details = element.querySelector('.details');
+            if (details.style.display === 'none') {
+                details.style.display = 'block';
+            } else {
+                details.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

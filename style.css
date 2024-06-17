@@ -1,0 +1,208 @@
+/* Reset and base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #495057;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile {
+    text-align: center;
+    position: relative;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin: 15px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.profile-img {
+    width: 150px; /* Adjusted width for profile image */
+    height: 150px; /* Adjusted height for profile image */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire area while maintaining aspect ratio */
+    object-position: center; /* Centers the image within the container */
+    background-color: #fff; /* Added background color for profile image */
+    border: 5px solid #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px; /* Adjust positioning to the right */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #495057;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills-list li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.skills-list li img:hover {
+    transform: scale(1.1);
+}
+
+.section-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px; /* Center image horizontally and add margin for spacing */
+    display: block; /* Ensure image behaves as a block element */
+}
+
+.horizontal-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center items horizontally */
+}
+
+.experience, .project {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 30px; /* Increased padding for larger size */
+    width: 70%; /* Set width to 70% of the container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    position: relative; /* Added position relative for positioning section images */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.experience:hover, .project:hover {
+    transform: scale(1.02);
+}
+
+.experience h3, .project h3 {
+    margin-top: 0;
+    font-size: 1.2em; /* Adjusted font size for headers */
+    color: #495057;
+    text-align: center; /* Center-align header text */
+}
+
+.experience p, .project p {
+    color: #868e96;
+    font-size: 1em; /* Adjusted font size for paragraphs */
+    text-align: center; /* Center-align paragraph text */
+}
+
+.details {
+    margin-top: 10px;
+    font-size: 1em; /* Adjusted font size for details */
+}
+
+.btn {
+    display: block;
+    background: #495057;
+    color: #fff;
+    padding: 12px 24px; /* Increased padding for buttons */
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto; /* Center button horizontally with auto margin */
+    font-size: 1em;
+    width: fit-content; /* Set width to fit content */
+}
+
+.btn:hover {
+    background: #343a40;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contact a {
+    color: #495057;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em; /* Adjusted font size for contact links */
+}
+
+#contact a:hover {
+    color: #212529;
+}
+
+.horizontal-section {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.horizontal-section a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Adjust padding for main content */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1eb; /* Light magenta background color */
+    color: #212529;
+}
+
